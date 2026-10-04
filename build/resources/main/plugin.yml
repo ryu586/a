@@ -1,0 +1,14 @@
+name: StructPhysics
+version: 0.1.0
+main: com.example.structphysics.StructPhysicsPlugin
+api-version: '1.21'
+description: Block-network structural physics (load paths, stress, safety factor, progressive collapse)
+commands:
+  structphysics:
+    description: StructPhysics admin command
+    usage: /<command> <inspect|analyze|reload>
+    aliases: [sp]
+    permission: structphysics.admin
+permissions:
+  structphysics.admin:
+    default: op
